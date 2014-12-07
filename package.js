@@ -1,11 +1,11 @@
 Package.describe({
   name: 'cscottnet:twitter',
   summary: 'Interface with Twitter APIs on Meteor server',
-  version: '0.2.5',
+  version: '0.2.13',
   git: 'https://github.com/cscott/meteor-twitter.git'
 });
 
-Npm.depends({"twitter": "0.2.5"});
+Npm.depends({"twitter": "0.2.13"});
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.0');
